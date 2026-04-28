@@ -120,10 +120,7 @@ export const LoginPage = () => {
 
       <section className="auth-form-panel">
         <div className="auth-form-card">
-          <div className="helper-banner">
-            <strong>{isFirebaseConfigured ? 'Firebase auth ready' : 'Demo auth mode'}</strong>
-            <span>{demoBanner}</span>
-          </div>
+          
 
           <div className="auth-form-heading">
             <h2>Sign in to CareAxis</h2>

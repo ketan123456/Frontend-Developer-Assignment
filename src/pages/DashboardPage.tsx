@@ -103,7 +103,7 @@ export const DashboardPage = () => {
       <section className="hero-banner">
         <div className="hero-copy">
           <p className="page-eyebrow">Shift summary</p>
-          <h2>Welcome back, {user?.name?.split(' ')[0] ?? 'Jordan'}.</h2>
+          <h2>Welcome back, {user?.name?.split(' ')[0] ?? 'Ketan'}.</h2>
           <p>
             Cardiology and respiratory units are carrying the highest operational pressure right now.
             Two care-transition blocks need same-day action before discharge windows start to slip.

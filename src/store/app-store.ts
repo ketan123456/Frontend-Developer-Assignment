@@ -110,7 +110,7 @@ export const useAppStore = create<AppState>()(
             loginError: null,
             user: {
               uid: 'demo-user-1',
-              name: 'Jordan Avery',
+              name: 'ketan kritesh',
               email: demoCredentials.email,
               role: 'Operations Lead',
               mode: 'demo',
