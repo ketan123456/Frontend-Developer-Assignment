@@ -1,0 +1,16 @@
+{
+  "name": "CareAxis Control Center",
+  "short_name": "CareAxis",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#04161c",
+  "theme_color": "#0f7c82",
+  "description": "Healthcare SaaS interface for patient operations, analytics, and alerts.",
+  "icons": [
+    {
+      "src": "/brand-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
