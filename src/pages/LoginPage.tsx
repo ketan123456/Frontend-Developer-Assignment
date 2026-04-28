@@ -1,8 +1,8 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import { InputField } from '../components/ui/InputField';
 import { Button } from '../components/ui/Button';
-import { firebaseSetupHint, isFirebaseConfigured } from '../lib/firebase';
+import { isFirebaseConfigured } from '../lib/firebase';
 import { useAppStore } from '../store/app-store';
 
 interface FormState {
@@ -45,14 +45,6 @@ export const LoginPage = () => {
   const login = useAppStore((state) => state.login);
   const loginError = useAppStore((state) => state.loginError);
   const clearLoginError = useAppStore((state) => state.clearLoginError);
-
-  // const demoBanner = useMemo(() => {
-  //   if (isFirebaseConfigured) {
-  //     return 'Firebase authentication is active. Sign in with a valid project user.';
-  //   }
-
-  //   return `${firebaseSetupHint} Demo mode is enabled for reviewers.`;
-  // }, []);
 
   if (authStatus === 'authenticated') {
     return <Navigate to="/dashboard" replace />;
