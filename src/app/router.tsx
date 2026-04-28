@@ -10,6 +10,10 @@ import { patients } from '../data/patients';
 
 export const router = createBrowserRouter([
   {
+    path: '/loging',
+    element: <Navigate to="/login" replace />,
+  },
+  {
     path: '/login',
     element: (
       <PublicOnlyRoute>
